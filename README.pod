@@ -4,7 +4,7 @@
 
 =head1 NAME
 
-Blackbeard :: A DVD & Blue-Ray Conversion Suite for MPlayer
+Blackbeard :: A DVD Conversion Suite for MPlayer
 
 =head1 SYNOPSIS
 
