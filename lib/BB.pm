@@ -1,4 +1,4 @@
-# BB.pm (c) 2007-2008 nemesis, l.l.c.
+# bbinfo (c) 2007-2008 nemesis, l.l.c. - 2012 - 2014 Thoughtpivot, LLC.
 
 use warnings;
 use strict;
