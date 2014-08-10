@@ -1,4 +1,3 @@
-# Math.pm (c) 2007-2008 nemesis, l.l.c.
 
 use warnings;
 use strict;
