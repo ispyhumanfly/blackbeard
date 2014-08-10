@@ -31,7 +31,7 @@ Blackbeard (BB) is a DVD conversion suite for MPlayer. BB currently provides sup
 
 =head1 BUGS
 	
-	http://github.com/ispyhumanfly/blackbeard/issues
+	http://github.com/thoughtpivot/blackbeard/issues
 
 =head1 SEE ALSO
 	
