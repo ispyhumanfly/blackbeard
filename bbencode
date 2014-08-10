@@ -5,16 +5,8 @@ use strict;
 
 BEGIN {
 
-    # NEMESIS_HOME was defined...
-    if ( ( exists $ENV{NEMESIS_HOME} ) and ( -d $ENV{NEMESIS_HOME} . '/bb' ) ) {
-        push @INC, $ENV{NEMESIS_HOME} . '/bb/lib';
-
-        # the bb namespace required environment variable...
-        $ENV{WE_LIKE_MOVIES} = $ENV{NEMESIS_HOME} . '/bb';
-    }
-
     # BB_HOME was defined and overrides NEMESIS_HOME
-    elsif ( ( exists $ENV{BB_HOME} ) and ( -d $ENV{BB_HOME} ) ) {
+    if ( ( exists $ENV{BB_HOME} ) and ( -d $ENV{BB_HOME} ) ) {
         push @INC, $ENV{BB_HOME} . '/lib';
 
         # the bb namespace required environment variable...
